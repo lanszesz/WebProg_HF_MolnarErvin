@@ -54,6 +54,7 @@
                 <th>Quantity</th>
                 <th>SUBTOTAL</th>
             </tr>
+            
             <?php
                 foreach ($carts as $i => $cart) {
                     // echo "<p>Cart: $i</p>";  // for some reason this doesn't show as intended
@@ -72,6 +73,5 @@
                 }
             ?>
         </table>
-
     </body>
 </html>
